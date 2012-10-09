@@ -5,7 +5,7 @@ twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 3.1 A
 
 [![Build Status](https://secure.travis-ci.org/seyhunak/twitter-bootstrap-rails.png)](http://travis-ci.org/seyhunak/twitter-bootstrap-rails)
 [![Dependency Status](https://gemnasium.com/seyhunak/twitter-bootstrap-rails.png)](https://gemnasium.com/seyhunak/twitter-bootstrap-rails)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/seyhunak/twitter-bootstrap-rails)
+
 
 ## Screencasts
 #### Installing twitter-bootstrap-rails, generators, usage and more
@@ -21,7 +21,7 @@ in this episode continues on the Twitter Bootstrap project showing how to displa
 
 ## Installing Gem
 
-Include the [Twitter Bootstrap Rails gem](http://rubygems.org/gems/twitter-bootstrap-rails) in Gemfile to install it from [RubyGems.org](http://rubygems.org);
+Include Bootstrap in Gemfile;
 
 ```ruby
 gem "twitter-bootstrap-rails"
@@ -79,11 +79,11 @@ Usage:
 Example:
 
 
-    rails g scaffold Post title:string description:text
+    rails g scaffold post title:string description:text
     rake db:migrate
     rails g bootstrap:themed Posts
 
-Notice the plural usage of the resource to generate bootstrap:themed.
+
 
 ## Using with Less
 
@@ -134,12 +134,6 @@ jQuery ->
   $("a[rel=tooltip]").tooltip()
 ```
 
-## Using Helpers
-
-### Flash helper
-Add flash helper <%= bootstrap_flash %> to your layout (built-in with layout generator)
-
-
 ## Using Static CSS, JS (w/o Less)
 
 twitter-bootstrap-rails has seperate branch (w/o Less) that just serves latest static CSS, JS files.
@@ -182,14 +176,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
   <li>Added SimpleForm support</li>
   <li>Added FontAwesome support</li>
   <li>Released gem v.2.0.6</li>
-  <li>Released gem v.2.0.7</li>
-  <li>Released gem v.2.0.8</li>
-  <li>Released gem v.2.0.9 (Bootstrap 2.0.4 and FontAwesome 2.0 support)</li>
-  <li>Released gem v.2.1.0 (JRuby support)</li>
-  <li>Released gem v.2.1.1 (minor fixes)</li>
-  <li>Flash block message helper added</li>
-  <li>Released gem v.2.1.2 (minor fixes and updated to Twitter Bootstrap 2.1.0)</li>
-  <li>Released gem v.2.1.3 (minor fixes and updated to Twitter Bootstrap 2.1.1)</li>
 </ul>
 
 
@@ -209,8 +195,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
   <li>Thiago Almeida</li>
   <li>Sébastien Grosjean</li>
   <li>Nick DeSteffen</li>
-  <li>Christian Joudrey</li>
-  <li>Todd Baur</li>
 </ul>
 
 
@@ -234,24 +218,12 @@ Seyhun Akyürek - seyhunak [at] gmail com
 
 [Visit My Blog](http://www.seyhunakyurek.com/ "Visit My Blog")
 
-## Endorse My Skills
-<a href="http://coderwall.com/seyhunak">
-<img src="http://api.coderwall.com/seyhunak/endorsecount.png" />
-</a>
-
-##  Want to Donate?
-<img src="https://www.paypalobjects.com/en_US/i/logo/PayPal_mark_50x34.gif"></img>
-
-[Want to donate for my efforts?. Show your love](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W8ZLWQBREFP4U
- "Donate")
-
-
 ## Score me
 <img src="https://addons.opera.com/media/extensions/55/14355/1.0.1-rev1/icons/icon_64x64.png"></img>
 
 Please +K my influence in Ruby on Rails on @klout
 
-http://klout.com/#/seyhunak
+http://klout.com/plusk/49924/31351845?n=tw&v=plusK_ask
 
 ## Thanks
 Twitter Bootstrap and all twitter-bootstrap-rails contributors

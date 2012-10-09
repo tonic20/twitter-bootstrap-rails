@@ -15,10 +15,10 @@ module Twitter
 
       protected
 
-      def add_breadcrumb name, url = '', options = {}
+      def add_breadcrumb name, url = ''
         @breadcrumbs ||= []
-        url = eval(url.to_s) if url =~ /_path|_url|@/
-          @breadcrumbs << {:name => name, :url => url, :options => options}
+        url = eval(url) if url =~ /_path|_url|@/
+          @breadcrumbs << {:name => name, :url => url}
       end
 
       def render_breadcrumbs(divider = '/')
